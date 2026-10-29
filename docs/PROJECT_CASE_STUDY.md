@@ -112,7 +112,7 @@ recognizing data limitations.
 ## 10. Project Resources
 
 - [GitHub Repository](https://github.com/JohnFafiolu/statistical-quality-control-water-production)
-- [Data Dictionary](DATA_DICTIONARY.md)
+- [Data Dictionary](DataDictionary.md)
 
 ## Author
 
