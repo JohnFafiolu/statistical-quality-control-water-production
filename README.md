@@ -115,6 +115,26 @@ using correlation and linear regression.
 - `images/` — Generated charts.
 - `docs/DataDictionary.md` — Dataset and variable descriptions.
 
+## Repository Structure
+
+```text
+statistical-quality-control-water-production/
+├── data/
+│   ├── master_factory_data.csv
+│   └── staff_questionnaire_data.csv
+├── docs/
+│   └── DataDictionary.md
+├── images/
+│   ├── Water_Quality_Analysis.png
+│   ├── Defect_Analysis.png
+│   ├── Machine_Trend.png
+│   └── Sales_Regression.png
+├── notebooks/
+│   └── pythoncode.ipynb
+├── README.md
+├── requirement.txt
+└── .gitignore
+```
 ## Limitations
 
 - The datasets are simulated and do not represent verified
