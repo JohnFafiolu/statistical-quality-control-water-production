@@ -82,23 +82,59 @@ The repository will contain the analysis notebook, simulated datasets, exported 
 
 A detailed repository structure and file-by-file guide will be added as the project files are organized.
 
+## Project Visualizations
+
+### 1. Water Quality Analysis
+Examines simulated turbidity measurements using a histogram
+and an Individuals control chart.
+
+![Water Quality Analysis](images/Water_Quality_Analysis.png)
+
+### 2. Defect Analysis
+Uses Pareto analysis to identify the most frequent defect
+categories and a p-chart to monitor the defective proportion.
+
+![Defect Analysis](images/Defect_Analysis.png)
+
+### 3. Machine Downtime Analysis
+Uses a daily trend and a 7-day moving average to examine
+patterns in simulated machine downtime.
+
+![Machine Downtime Analysis](images/Machine_Trend.png)
+
+### 4. Production and Sales Analysis
+Examines the relationship between production and revenue
+using correlation and linear regression.
+
+![Sales Regression](images/Sales_Regression.png)
+
+## Project Files
+
+- `notebooks/` — Jupyter Notebook containing the analysis.
+- `data/` — Simulated production and questionnaire datasets.
+- `images/` — Generated charts.
+- `docs/DataDictionary.md` — Dataset and variable descriptions.
+
 ## Limitations
 
-- The datasets are simulated, not verified factory or staff records.
-- The production analysis contains 90 observations, and the questionnaire contains 15 simulated responses.
-- Revenue was derived from units sold using a fixed price of ₦150.
-- Correlation and regression do not establish causation.
-- The questionnaire showed poor internal consistency in the simulated sample.
-- Turbidity measurements alone cannot establish whether water is safe for consumption.
-
+- The datasets are simulated and do not represent verified
+  operational records from the university's water factory.
+- The regression identifies an association, not a causal effect.
+- Revenue was calculated using a fixed assumed price of ₦150
+  per unit sold; it is not verified actual revenue.
+- The questionnaire contains only 15 simulated responses.
+- Cronbach's alpha was negative (-0.565), indicating poor
+  internal consistency among the questionnaire items.
+  
 ## Conclusion
 
 This project demonstrates the application of descriptive statistics, statistical process-control charts, Pareto analysis, correlation, regression, and questionnaire reliability assessment to a simulated production scenario.
 
 It emphasizes data validation, appropriate statistical methods, careful interpretation, and transparent reporting of limitations before making operational recommendations.
-
 ## Author
 
-**John Fafiolu**
+**John Fafiolu**  
+Statistics graduate | Data Analytics | Statistical Analysis
 
-Statistics | Data Analysis | Statistical Quality Control
+[GitHub Profile](https://github.com/JohnFafiolu)
+
