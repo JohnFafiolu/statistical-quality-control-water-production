@@ -8,6 +8,7 @@ The analysis demonstrates how statistical techniques can be used to investigate 
 
 **Important:** The datasets used in this project are simulated. The results are illustrative and do not represent verified operational findings about Osun State University Water Factory or its staff.
 
+**Detailed Case Study:** [Read the full project case study](docs/PROJECT_CASE_STUDY.md)
 ## Objectives
 
 - Quantify the proportion of defective units in the simulated production data.
